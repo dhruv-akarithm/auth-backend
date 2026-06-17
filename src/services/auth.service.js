@@ -1,5 +1,6 @@
 const User = require("../models/user.model");
 const jwt = require("jsonwebtoken");
+const profileService = require("./profile.service");
 
 const throwErr = (msg, code) => {
   let error = new Error(msg);
