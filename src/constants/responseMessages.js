@@ -1,0 +1,16 @@
+module.exports = {
+  USER_CREATED: "User registered successfully",
+  LOGIN_SUCCESS: "Login successful",
+  INVALID_CREDENTIALS: "Invalid email or password",
+  PROFILE_FETCHED: "Profile fetched successfully",
+  PROFILE_UPDATED: "Profile updated successfully",
+  PASSWORD_CHANGED: "Password changed successfully",
+  UNAUTHORIZED: "Unauthorized access",
+  TOKEN_MISSING: "Token not provided",
+  TOKEN_INVALID: "Token is invalid or has expired",
+  USER_ALREADY_EXISTS: "Email is already registered",
+  USER_NOT_FOUND: "User not found",
+  OLD_PASSWORD_INCORRECT: "Current password is incorrect",
+  INTERNAL_SERVER_ERROR: "Something went wrong",
+  VALIDATION_ERROR: "Validation failed",
+};
