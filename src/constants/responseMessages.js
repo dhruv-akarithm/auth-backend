@@ -13,4 +13,5 @@ module.exports = {
   OLD_PASSWORD_INCORRECT: "Current password is incorrect",
   INTERNAL_SERVER_ERROR: "Something went wrong",
   VALIDATION_ERROR: "Validation failed",
+  LOGOUT_SUCCESS: "Logged out successfully",
 };

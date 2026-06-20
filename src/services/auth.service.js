@@ -62,5 +62,10 @@ const login = async (email, password) => {
 const getMe = async (userId) => {
   return await profileService.getProfile(userId);
 };
+const logout = async () => {
+  return {
+    success: true,
+  };
+};
 
-module.exports = { signup, login, getMe };
+module.exports = { signup, login, getMe, logout };

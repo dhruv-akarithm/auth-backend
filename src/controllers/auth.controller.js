@@ -36,4 +36,14 @@ const getMe = async (req, res, next) => {
   }
 };
 
-module.exports = { signup, login, getMe };
+const logout = async (req, res, next) => {
+  try {
+    await authService.logout();
+
+    return sendResponse(res, 202, true, "Logged out successfully");
+  } catch (error) {
+    next(error);
+  }
+};
+
+module.exports = { signup, login, getMe, logout };
